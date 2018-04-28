@@ -1,0 +1,45 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BUFFER_SIZE	lst_timer.h	5;"	d
+FD_LIMIT	lst_timer.cpp	17;"	d	file:
+LST_TIMER	lst_timer.h	2;"	d
+MAX_EVENT_NUMBER	lst_timer.cpp	18;"	d	file:
+TIMESLOT	lst_timer.cpp	19;"	d	file:
+add_timer	lst_timer.h	/^	void add_timer(util_timer *timer){$/;"	f	class:sort_timer_list
+add_timer	lst_timer.h	/^	void add_timer(util_timer *timer, util_timer *lst_head){$/;"	f	class:sort_timer_list
+addfd	lst_timer.cpp	/^void addfd(int epollfd, int fd)$/;"	f
+address	lst_timer.h	/^	sockaddr_in address;$/;"	m	struct:client_data
+addsig	lst_timer.cpp	/^void addsig(int sig)$/;"	f
+adjust_timer	lst_timer.h	/^	void adjust_timer(util_timer *timer){$/;"	f	class:sort_timer_list
+buf	lst_timer.h	/^	char buf[BUFFER_SIZE];$/;"	m	struct:client_data
+cb_func	lst_timer.cpp	/^void cb_func(client_data *user_data)$/;"	f
+cb_func	lst_timer.h	/^	void (*cb_func)(client_data *);$/;"	m	class:util_timer
+client_data	lst_timer.h	/^struct client_data$/;"	s
+del_timer	lst_timer.h	/^	void del_timer(util_timer *timer){$/;"	f	class:sort_timer_list
+epollfd	lst_timer.cpp	/^static int epollfd = 0;$/;"	v	file:
+expire	lst_timer.h	/^	timer_t expire;$/;"	m	class:util_timer
+head	lst_timer.h	/^	util_timer *head;$/;"	m	class:sort_timer_list
+main	connectTimeout.c	/^int main(int argc, char *argv[])$/;"	f
+main	lst_timer.cpp	/^int main(int argc, char *argv[])$/;"	f
+next	lst_timer.h	/^	util_timer *next;$/;"	m	class:util_timer
+pipefd	lst_timer.cpp	/^static int pipefd[2];$/;"	v	file:
+prev	lst_timer.h	/^	util_timer *prev;$/;"	m	class:util_timer
+setnonblocking	lst_timer.cpp	/^int setnonblocking(int fd)$/;"	f
+sig_handler	lst_timer.cpp	/^void sig_handler(int sig)$/;"	f
+sockfd	lst_timer.h	/^	int sockfd;$/;"	m	struct:client_data
+sort_timer_list	lst_timer.h	/^	sort_timer_list():head(NULL), tail(NULL){ }$/;"	f	class:sort_timer_list
+sort_timer_list	lst_timer.h	/^class sort_timer_list$/;"	c
+tail	lst_timer.h	/^	util_timer *tail;$/;"	m	class:sort_timer_list
+tick	lst_timer.h	/^	void tick(){$/;"	f	class:sort_timer_list
+timeout_connect	connectTimeout.c	/^int timeout_connect(const char *ip, int port, int time)$/;"	f
+timer	lst_timer.h	/^	util_timer *timer;$/;"	m	struct:client_data
+timer_handler	lst_timer.cpp	/^void timer_handler()$/;"	f
+timer_lst	lst_timer.cpp	/^static sort_timer_list timer_lst;$/;"	v	file:
+uitl_timer	lst_timer.h	/^	uitl_timer():pre(NULL), next(NULL){ }$/;"	f	class:util_timer
+user_data	lst_timer.h	/^	client_data *user_data;$/;"	m	class:util_timer
+util_timer	lst_timer.h	/^class util_timer$/;"	c
+~sort_timer_list	lst_timer.h	/^	~sort_timer_list(){$/;"	f	class:sort_timer_list
